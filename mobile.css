@@ -70,4 +70,43 @@
     .banner-img img {
         width: 100%;
     }
+
+    /* main section  */
+    main {
+        max-width: 1440px;
+        margin: 0 auto;
+
+    }
+
+    .main-content {
+        gap: 76px;
+
+        align-items: center;
+        text-align: center;
+    }
+
+    .main-imgs {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .main-img img {
+        width: 100%;
+    }
+
+    .main-text h2 {
+        font-size: 2.8125rem;
+        margin-bottom: 24px;
+    }
+
+    .main-text {
+        max-width: 537px;
+    }
+
+    .main-text p {
+        font-size: 1rem;
+        margin-bottom: 32px;
+        text-align: justify;
+    }
 }
